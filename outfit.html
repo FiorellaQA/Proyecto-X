@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Outfit</title>
+    <link rel="stylesheet" href="assets/css/outfit.css">
+    <link rel="stylesheet" href="assets/icons-outfit/font/flaticon.css">
+    <link rel="stylesheet" href="assets/iconos-outfit/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Courgette|Dancing+Script|Eagle+Lake|Gloria+Hallelujah|Handlee|Indie+Flower|Josefin+Sans|League+Script|Lobster|Pacifico|Ranga|Satisfy|Shadows+Into+Light|Yellowtail" rel="stylesheet">
+  </head>
+  <body>
+    <section class="selection-style">
+      <div class="clothes-menu">
+        <h1>Tu Outfit</h1>
+        <h2>¿Quién quieres ser hoy?</h2>
+      </div>
+      <div class="color-select">
+        <h4>Selecciona el color:</h4>
+        <div class="color-selection">
+          <ul class="colors">
+            <li class="color" id="blanco"></li>
+            <li class="color" id="marron"></li>
+            <li class="color" id="rojo"></li>
+            <li class="color" id="naranja"></li>
+            <li class="color" id="amarillo"></li>
+            <li class="color" id="verde-oscuro"></li>
+            <li class="color" id="negro"></li>
+            <li class="color" id="gris"></li>
+            <li class="color" id="morado"></li>
+            <li class="color" id="azul"></li>
+            <li class="color" id="celeste"></li>
+            <li class="color" id="rosado"></li>
+          </ul>
+        </div>
+      </div>
+      <button class="accordion">
+        <span class="flaticon-women-top"></span>
+        <h3>TOPS</h3>
+      </button>
+      <div class="panel">
+        <label><input class="tops" type="checkbox" name="blusa" value="blusa">blusa</label>
+        <label><input class="tops" type="checkbox" name="polo" value="polo">polo</label>
+        <label><input class="tops" type="checkbox" name="crops" value="crops">crops</label>
+      </div>
+      <button class="accordion">
+        <span class="flaticon-pants"></span>
+        <h3>PANTALONES</h3>
+      </button>
+      <div class="panel">
+        <label><input class="pantalones" type="checkbox" name="jeans" value="jeans">jeans</label>
+        <label><input class="pantalones" type="checkbox" name="drill" value="drill">drill</label>
+        <label><input class="pantalones" type="checkbox" name="bermudas" value="bermudas">bermudas</label>
+        <label><input class="pantalones" type="checkbox" name="short" value="short">short</label>
+      </div>
+
+      <button class="accordion">
+        <span class="flaticon-night-dress"></span>
+        <h3>VESTIDOS</h3>
+      </button>
+      <div class="panel">
+          <label><input class="vestidos" type="checkbox" name="largo" value="largo">largo</label>
+          <label><input class="vestidos" type="checkbox" name="corto" value="corto">corto</label>
+      </div>
+      <button class="accordion">
+          <span class="flaticon-broad-brimmed-hat"></span>
+         <h3>ACCESORIOS</h3>
+      </button>
+         <div class="panel">
+            <label><input class="accesorios" type="checkbox" name="pashmina" value="pashmina">pashmina</label>
+            <label><input class="accesorios" type="checkbox" name="bolso" value="bolso">bolso</label>
+            <label><input class="accesorios" type="checkbox" name="sombrero" value="sombrero">sombrero</label>
+         </div>
+         <div class="button">
+          <button id="listo" type="button" name="button">Listo</button>
+        </div>
+    </section>
+    <script src="assets/js/outfit.js" charset="utf-8"></script>
+  </body>
+</html>
