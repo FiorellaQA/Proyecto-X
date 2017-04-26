@@ -1,0 +1,229 @@
+html, body{
+	height: 100%;
+	background-color: #F6F9FC;
+}
+body, video{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+nav{
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 80px;
+}
+.logo{
+  position: absolute;
+  z-index: 2000;
+  background-size: contain;
+  width: 174px;
+  height: 72px;
+  padding: 0.4% 3%;
+  text-align: left;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(../img/logos/logo2.png);
+}
+.nav-menu{
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+  height: 100%;
+  position: fixed;
+  width: 400px;
+  z-index: 1000;
+  right: -450px;
+}
+.abierto{
+  right: 0px;
+  transition: 1s;
+}
+.cerrado{
+  right: -400px;
+  transition: 500ms;
+}
+span.menu{
+  color: white;
+  font-size: 29px;
+  position: absolute;
+  z-index: 2000;
+  top: -10px;
+  right: 16px;
+  margin: 2rem 2rem;
+}
+nav ul{
+  position: absolute;
+  list-style: none;
+  top: 26%;
+}
+nav ul li a{
+  color: white;
+  display: block;
+  padding: 24px 0 0;
+  font-size: 31px;
+  text-decoration: none;
+}
+nav ul li a:hover{
+    color:#f7b617;
+}
+/*--------------------------------------Style Header----------------*/
+header{
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	min-height: 700px;
+}
+.video {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  position: absolute;
+  z-index: 1;
+
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+}
+div.content_header{
+  top: -65px;
+  width: 100%;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-flow: column;
+}
+h1{
+  text-transform: lowercase;
+  padding: 0;
+  margin:0;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 2px 2px #fff;
+  box-sizing: content-box;
+  color: white;
+  font-size: 61px;
+}
+h3{
+  padding: 0;
+  margin:0;
+  font-size: 23px;
+  box-sizing: content-box;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+}
+.buttom{
+  margin-top: 25px;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 30px;
+  background-image: -webkit-linear-gradient(left,#F1404B 0,#FCA43E 100%);
+  background-image: linear-gradient(90deg,#F1404B 0,#FCA43E 100%);
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.05), 0 2px 6px 0 rgba(0,0,0,.1);
+  border-radius: 31px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.wave{
+	width: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wavies{
+	z-index: 10;
+	height: 247px;
+  bottom: 0;
+  background-image: url(../img/waves.svg);
+  background-position: center top;
+}
+.wavy{
+	z-index: 10;
+	height: 192px;
+  margin: auto;
+  bottom: -2px;
+  background-image: url(../img/last-wave.svg);
+  background-position: center top;
+}
+/*----------------------------------------End Header----------------*/
+#nosotros{
+  padding: 45px;
+  z-index: 10;
+  position: relative;
+  color: red;
+  background-color: #F6F9FC;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: -108px auto 0;
+  font-family: 'Raleway', sans-serif;
+}
+div.imagen_about{
+  position: relative;
+  border-radius: 50%;       
+  background-size: contain;
+  width: 200px;
+  height: 300px;
+  padding: 0.4% 3%;
+  text-align: right;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url(../img/niños2.jpg);
+}
+
+#equipo{
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  min-height: 700px;
+  background-color: #ad5353;
+  text-align: center; 
+  color: #fff;
+  padding: 70px 7px; 
+}
+.integrante{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+h2.text-equipo{
+  font-size: 35px;
+  letter-spacing: 2px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
