@@ -7,3 +7,14 @@ document.getElementById("toggle").addEventListener("click",function(event){
     document.getElementById("menuPrincipal").className = "nav-menu abierto";
   }
 });
+var ele = "";
+function showSocial(el){
+	ele = el;
+	el.className="card over";
+	ele.childNodes[5].className = "card__social__active";
+}
+
+function hideSocial(el){
+	el.className="card out";
+	ele.childNodes[5].className = "card__social";
+}

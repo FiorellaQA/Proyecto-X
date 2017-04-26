@@ -1,6 +1,7 @@
 html, body{
 	height: 100%;
 	background-color: #F6F9FC;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 body, video{
   margin: 0;
@@ -52,6 +53,7 @@ span.menu{
   top: -10px;
   right: 16px;
   margin: 2rem 2rem;
+  cursor: pointer;
 }
 nav ul{
   position: absolute;
@@ -110,7 +112,7 @@ h1{
   text-transform: lowercase;
   padding: 0;
   margin:0;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Fredericka the Great', cursive;
   text-shadow: 2px 2px #fff;
   box-sizing: content-box;
   color: white;
@@ -122,7 +124,6 @@ h3{
   font-size: 23px;
   box-sizing: content-box;
   color: white;
-  font-family: 'Dancing Script', cursive;
 }
 .buttom{
   margin-top: 25px;
@@ -139,7 +140,6 @@ h3{
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 .wave{
 	width: 100%;
@@ -163,53 +163,187 @@ h3{
   background-position: center top;
 }
 /*----------------------------------------End Header----------------*/
-#nosotros{
-  padding: 45px;
-  z-index: 10;
-  position: relative;
-  color: red;
-  background-color: #F6F9FC;
-  width: 100%;
-  max-width: 1100px;
-  height: auto;
-  margin: -108px auto 0;
-  font-family: 'Raleway', sans-serif;
+.title-about{
+    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
 }
-div.imagen_about{
+#nosotros{
+    padding: 45px;
+    z-index: 10;
+    position: relative;
+    color: red;
+    background-color: #F6F9FC;
+    width: 100%;
+    max-width: 1100px;
+    height: 358px;
+    margin: -108px auto 0;
+}
+div.content-divisor{
+  margin:20px 0px;
+}
+
+hr.divisor{
+  width: 40px;
+  border-top-width: 2;
   position: relative;
-  border-radius: 50%;       
-  background-size: contain;
-  width: 200px;
-  height: 300px;
-  padding: 0.4% 3%;
-  text-align: right;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-image: url(../img/niños2.jpg);
+  right: 531px;
+}
+p.content-about{
+  width: 500px;
+}
+
+div.imagen_about{
+    position: absolute;
+    /* border-radius: 50%; */
+    background-size: contain;
+    width: 344px;
+    height: 336px;
+    padding: 0.4% 3%;
+    /* text-align: right; */
+    /* background-position: 8% 50%; */
+    background-repeat: no-repeat;
+    background-image: url(../img/mujeres.jpeg);
+    right: 106px;
+    top: 73px;
 }
 
 #equipo{
+position: relative;
+    overflow: hidden;
+    height: 321px;
+    background-color: #ad5353;
+    color: #fff;
+    /* padding-bottom: 240px; */
+  }
+div.container{
+  margin:auto;
+    padding: 45px;
+    /* z-index: 10; */
+    position: relative;
+    color: white;
+    background-color: #ad5353;
+    width: 100%;
+    max-width: 1100px;
+    /*height: 358px;*/
+    /* margin: -108px auto 0; */
+}
+div.contenedor-integrantes{
+    margin:auto;
+    padding: 45px;
+    /* z-index: 10; */
+    position: relative;
+    color: white;
+    background-color: #F6F9FC;
+    width: 100%;
+    max-width: 1100px;
+}
+
+
+div.integrantes{
+    top: -93px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ratio-2x2{
+  position: relative;
+}
+
+.ratio-2x2:before {
+  content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.inte{
   position: relative;
   overflow: hidden;
-  height: 100%;
-  min-height: 700px;
-  background-color: #ad5353;
-  text-align: center; 
-  color: #fff;
-  padding: 70px 7px; 
+  width: 200px;
+  border-radius: 50%; 
+      border: 5px solid #ddd;
 }
 .integrante{
-  display: inline-block;
-  width: 30%;
-  margin-top: 63px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
 }
+.integrante img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+
 h2.text-equipo{
-  font-size: 35px;
-  letter-spacing: 2px; 
+    font-size: 50px;
+    font-family: 'Fredericka the Great', cursive;
 }
 
 
+.card{
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  /*box-shadow: 0px 0px 13px 6px #aaa;*/
+  width: 200px;
 
+  background-color: #fff;
+  color: #000;
+  position: relative;
+}
+
+.out{
+  padding: 40px;
+  transition: 0.3s;
+}
+
+.card__name{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.over{
+  transition: 200ms;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+
+.card__social{
+  display: none;
+}
+
+.card__social__active{
+  transition: 1s;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  transition: 1s;
+      position: absolute;
+    width: 100%;
+    margin-left: -40px;
+    bottom: 0px;
+}
+
+.card__social__facebook, .card__social__about{
+  transition: 1s;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+.card__social__facebook{
+  background-color: #3B5998;
+}
+.card__social__about{
+  background-color: #58c4c4;
+}
 
 
 
