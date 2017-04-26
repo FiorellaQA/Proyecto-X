@@ -18,16 +18,19 @@ nav{
   height: 80px;
 }
 .logo{
-  position: absolute;
-  z-index: 2000;
-  background-size: contain;
-  width: 174px;
-  height: 72px;
-  padding: 0.4% 3%;
-  text-align: left;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-image: url(../img/logos/logo2.png);
+
+    right: 77px;
+    top: 97px;
+    position: absolute;
+    z-index: 2000;
+    background-size: contain;
+    width: 208px;
+    height: 182px;
+    padding: 0.4% 3%;
+    text-align: left;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url(../img/logos/logowhite.png);
 }
 .nav-menu{
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
@@ -58,14 +61,14 @@ span.menu{
 nav ul{
   position: absolute;
   list-style: none;
-  top: 26%;
+  top: 48%;
 }
 nav ul li a{
-  color: white;
-  display: block;
-  padding: 24px 0 0;
-  font-size: 31px;
-  text-decoration: none;
+    color: white;
+    display: block;
+    padding: 11px 0 0;
+    font-size: 22px;
+    text-decoration: none;
 }
 nav ul li a:hover{
     color:#f7b617;
@@ -109,11 +112,10 @@ div.content_header{
   flex-flow: column;
 }
 h1{
-  text-transform: lowercase;
   padding: 0;
   margin:0;
   font-family: 'Fredericka the Great', cursive;
-  text-shadow: 2px 2px #fff;
+  text-shadow: 2px 2px #060606;
   box-sizing: content-box;
   color: white;
   font-size: 61px;
@@ -126,20 +128,20 @@ h3{
   color: white;
 }
 .buttom{
-  margin-top: 25px;
-  text-decoration: none;
-  line-height: 50px;
-  padding: 0 30px;
-  background-image: -webkit-linear-gradient(left,#F1404B 0,#FCA43E 100%);
-  background-image: linear-gradient(90deg,#F1404B 0,#FCA43E 100%);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,.05), 0 2px 6px 0 rgba(0,0,0,.1);
-  border-radius: 31px;
-  font-size: 15px;
-  font-weight: 700;
-  color: #fff;
-  text-align: center;
-  text-transform: uppercase;
-  cursor: pointer;
+    margin-top: 25px;
+    text-decoration: none;
+    line-height: 58px;
+    padding: 0 22px;
+    background-image: -webkit-linear-gradient(left,#F1404B 0,#FCA43E 100%);
+    background-image: linear-gradient(90deg,#F1404B 0,#FCA43E 100%);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.05), 0 2px 6px 0 rgba(0,0,0,.1);
+    border-radius: 50px;
+    font-size: 17px;
+    /* font-weight: 700; */
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 .wave{
 	width: 100%;
@@ -164,6 +166,7 @@ h3{
 }
 /*----------------------------------------End Header----------------*/
 .title-about{
+  color: #ad5353;
     font-size: 50px;
     font-family: 'Fredericka the Great', cursive;
 }
@@ -171,7 +174,7 @@ h3{
     padding: 45px;
     z-index: 10;
     position: relative;
-    color: red;
+    color: black;
     background-color: #F6F9FC;
     width: 100%;
     max-width: 1100px;
@@ -193,24 +196,24 @@ p.content-about{
 }
 
 div.imagen_about{
+    background-color: black;
     position: absolute;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     background-size: contain;
-    width: 344px;
-    height: 336px;
-    padding: 0.4% 3%;
+    width: 350px;
+    height: 350px;
+    padding: 10px;
     /* text-align: right; */
-    /* background-position: 8% 50%; */
+    background-position: 44% 50%;
     background-repeat: no-repeat;
-    background-image: url(../img/mujeres.jpeg);
-    right: 106px;
-    top: 73px;
+    background-image: url(../img/logos/logowhite.png);
+    right: 81px;
+    top: 41px;
 }
 
 #equipo{
 position: relative;
     overflow: hidden;
-    height: 321px;
     background-color: #ad5353;
     color: #fff;
     /* padding-bottom: 240px; */
@@ -288,14 +291,12 @@ h2.text-equipo{
 
 
 .card{
-  padding: 40px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  /*box-shadow: 0px 0px 13px 6px #aaa;*/
-  width: 200px;
-
-  background-color: #fff;
-  color: #000;
-  position: relative;
+    padding: 40px;
+    box-shadow: 0 0 20px #ad5353;
+    width: 200px;
+    background-color: #fff;
+    color: #000;
+    position: relative;
 }
 
 .out{
@@ -345,7 +346,96 @@ h2.text-equipo{
   background-color: #58c4c4;
 }
 
-
+#footer2 .footer-row {
+  padding: 45px 0;
+  background: rgba(0,0,0,.8);
+  color: #fff
+}
+#footer2 .footer-center {
+  text-align: center;
+  background: rgba(0,0,0,.6)
+}
+#footer2 .footer-center h3 {
+  text-transform: uppercase;
+  padding-bottom: 20px
+}
+#footer2 .footer-center p {
+  color: #999;
+  padding-bottom: 20px
+}
+#footer2 .footer-row .form-subscribe {
+  width: 540px;
+  margin: 0 auto;
+  border: 1px solid #999;
+  line-height: normal
+}
+.block-banner, .hot-deals-row {
+  margin-top: 30px
+}
+#footer2 .footer-row .form-subscribe .form-group {
+  width: 100%;
+  position: relative
+}
+#footer2 .footer-row .form-subscribe .form-control {
+  width: 100%;
+  background: 0 0;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+  padding-right: 40px;
+  color: #fff
+}
+#footer2 .footer-row .form-subscribe .btn {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  background: 0 0;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: inherit;
+  box-shadow: inherit;
+  color: #fff
+}
+#footer2 .widget-title {
+  color: #fff;
+  font-weight: 500;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+#footer2 .widget-body ul {
+  list-style: outside none none;
+  margin: 0;
+  padding-left: 25px;
+}
+#footer2 .widget-body li {
+  line-height: 30px
+}
+#footer2 .widget-body li a {
+  color: #999;
+  margin-left: -25px
+}
+#footer2 .widget-body li a:hover {
+  color: #fff
+}
+#footer2 .widget-body li a:before {
+  font-family: FontAwesome;
+  font-size: 14px;
+  content: "\f105";
+  margin-right: 15px
+}
+.copyright {
+  background-color: black;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: center;
+}
+.copyright p{
+  color: #999;
+}
+.copyright p a{
+  color: #fff;
+}
 
 
 
