@@ -2,6 +2,8 @@
 
 Somos una Escuela de imagen personal, cuyo objetivo es desarrollar y proyectar un estilo en el que la imagen y seguridad personal se diferencie del resto.
 
+[Proyecto finalizado](https://fiorellaqa.github.io/Proyecto-X/)
+
 
 ### Antes de empezar
 
