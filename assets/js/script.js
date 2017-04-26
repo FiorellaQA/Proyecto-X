@@ -18,3 +18,6 @@ function hideSocial(el){
 	el.className="card out";
 	ele.childNodes[5].className = "card__social";
 }
+document.getElementById("empezarAhora").addEventListener("click", function(event){
+	window.location = 'app.html';
+});
